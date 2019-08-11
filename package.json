@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "apicache": "^1.4.0",
+    "compression": "^1.7.4",
     "express": "^4.16.4",
     "pac-proxy-agent": "^3.0.0",
     "request": "^2.88.0"
