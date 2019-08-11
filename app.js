@@ -98,15 +98,15 @@ fs.readdirSync(path.join(__dirname, 'module')).reverse().forEach(file => {
 
 const port = process.env.PORT || 3000
 
-app.server = https.createServer({
-	key: fs.readFileSync('./sslfile/key.pem'),
-	cert: fs.readFileSync('./sslfile/cert.pem'),
-	passphrase: 'www.hua397.com'
-}, app)
-.listen(port);
+// app.server = https.createServer({
+// 	key: fs.readFileSync('./sslfile/key.pem'),
+// 	cert: fs.readFileSync('./sslfile/cert.pem'),
+// 	passphrase: 'www.hua397.com'
+// }, app)
+// .listen(port);
 
-// app.server = app.listen(port, () => {
-//     console.log(`server running @ http://localhost:${port}`)
-// })
+app.server = app.listen(port, () => {
+    console.log(`server running @ http://localhost:${port}`)
+})
 
 module.exports = app
