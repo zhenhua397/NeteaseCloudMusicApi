@@ -1,0 +1,65 @@
+{
+	"root": {
+	  "tab": {
+		  "iconNum": "4",
+		  "fontSize": "13",
+		  "textColor": "#000000",
+		  "selectColor":"",
+		  "data": [{
+			  "title": "onlIne",
+			  "imagePath": "online",
+				"selectImagePath":"online_select"
+		  }, {
+			  "title": "local",
+			  "imagePath": "local",
+			  "selectImagePath":"local_select"
+		  }, {
+			  "title": "book",
+			  "imagePath": "book",
+				"selectImagePath":"book_select"
+		  }, {
+			  "title": "manager",
+			  "imagePath": "manager",
+				"selectImagePath":"manager_select"
+		  }]
+	  }
+  },
+  "online": {
+	  "nav": {
+		  "iconNum": "5",
+		  "fontSize": "15",
+		  "textColor": "#000000",
+		  "data": [{
+              "id":"1",
+			  "title": "音乐",
+			  "imagePath": "home_rankinglist",
+              "fontSize": "15"
+		  }, {
+              "id":"2",
+			  "title": "歌单",
+			  "imagePath": "home_menu",
+              "fontSize": "15"
+		  }, {
+              "id":"3",
+			  "title": "歌手",
+			  "imagePath": "home_hotsinger",
+              "fontSize": "15"
+		  }, {
+              "id":"4",
+			  "title": "专辑",
+			  "imagePath": "home_album",
+              "fontSize": "15"
+		  }, {
+              "id":"5",
+			  "title": "收藏",
+			  "imagePath": "home_collection",
+              "fontSize": "15"
+		  }]
+	  },
+      "tab": {
+          "newMenu":"最新歌单",
+          "newAlbum":"最新专辑",
+          "newMusic":"热门单曲"
+      }
+  }
+}
